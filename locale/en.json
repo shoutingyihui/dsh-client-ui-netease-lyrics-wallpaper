@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Netease lyric background",
+    "description": "Puts the current Netease CloudMusic lyric behind the Harness workspace. The Host reads the track from Windows SMTC, resolves the lyric through Netease's public search and lyric endpoints, and the browser half paints one centered line. Press Alt+L for the color panel to tune the lyric color, visibility, and lyric-to-background contrast. It does not take pointer events, add layout space, or replace any shell surface. Turn the bundle off to remove the layer immediately."
+  }
+}

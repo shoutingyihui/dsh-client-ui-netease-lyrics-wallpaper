@@ -1,0 +1,8 @@
+node_modules/
+diag.jsonl
+diag.enabled
+evidence/
+screenshots/
+*.log
+*.zip
+.DS_Store

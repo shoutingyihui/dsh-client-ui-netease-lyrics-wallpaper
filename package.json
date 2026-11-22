@@ -1,0 +1,37 @@
+{
+  "name": "@deepseek-ai/dsh-client-ui-netease-lyrics-wallpaper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Netease CloudMusic lyric wallpaper for the DeepSeek Harness Web UI",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index-v2.js",
+    "client.js",
+    "smtc.ps1",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}
