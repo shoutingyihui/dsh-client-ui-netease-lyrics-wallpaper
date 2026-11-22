@@ -1,9 +1,26 @@
 {
   "name": "@deepseek-ai/dsh-client-ui-netease-lyrics-wallpaper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Netease CloudMusic lyric wallpaper for the DeepSeek Harness Web UI",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "netease-cloud-music",
+    "lyrics",
+    "wallpaper"
+  ],
+  "homepage": "https://github.com/shoutingyihui/dsh-client-ui-netease-lyrics-wallpaper#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoutingyihui/dsh-client-ui-netease-lyrics-wallpaper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoutingyihui/dsh-client-ui-netease-lyrics-wallpaper/issues"
+  },
+  "author": "shoutingyihui",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

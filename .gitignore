@@ -5,4 +5,5 @@ evidence/
 screenshots/
 *.log
 *.zip
+*.tgz
 .DS_Store

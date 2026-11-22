@@ -2,6 +2,26 @@
 
 把网易云音乐当前一句歌词铺在 DSH 工作区上，替代网易云自带的桌面浮窗。
 
+## 安装
+
+前提：`dsh` 在 PATH 上，`pnpm` 可用（`dsh plugin` 把安装参数转发给 pnpm 执行）。
+
+从 GitHub 源码安装：
+
+```powershell
+dsh plugin --profile desktop add github:shoutingyihui/dsh-client-ui-netease-lyrics-wallpaper
+```
+
+或用 Release 上的预构建 tarball：
+
+```powershell
+dsh plugin --profile desktop add https://github.com/shoutingyihui/dsh-client-ui-netease-lyrics-wallpaper/releases/latest/download/dsh-client-ui-netease-lyrics-wallpaper.tgz
+```
+
+装完重启 dsh 宿主进程并刷新页面，在 **设置 → 插件** 里能看到「网易云歌词背景」。
+
+升级重跑安装命令即可，`latest/download` 始终指向最新一版。卸载在 **设置 → 插件** 里关闭，或从 profile 移除 bundle。
+
 ## 前提
 
 - 桌面版网易云音乐正在运行，并且已在 **设置 → 常规 → 系统** 打开 **开启 SMTC**（名称可能显示为“系统媒体控制”）。不开时 Windows 的
